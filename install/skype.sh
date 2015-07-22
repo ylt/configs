@@ -1,9 +1,6 @@
 #!/bin/bash
 
-#https://wiki.debian.org/skype
-
-dpkg --add-architecture i386
-apt-get update
+./i386.sh
 
 wget -O skype-install.deb http://www.skype.com/go/getskype-linux-deb
 

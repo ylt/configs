@@ -7,4 +7,6 @@ if [[ "$DATA" =~ \"(https://[^\"]*?_amd64\.deb)\" ]]; then
 	wget "$URL" -O plex.deb
 	sudo dpkg -i plex.deb
 	rm plex.deb
+
+	sudo apt-get install -f
 fi
