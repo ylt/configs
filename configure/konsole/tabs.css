@@ -1,0 +1,19 @@
+QTabBar::tab {
+    background: #d4d4d4;
+    height: 26px;
+    padding-bottom: -2px;
+    margin-bottom: 2px;
+    border-bottom-width: 2px;
+}
+QTabBar::tab:hover {
+    border-bottom-width: 2px;
+    border-bottom-color: #d5aaa5;
+    border-bottom-style: solid;
+}
+
+QTabBar::tab:selected {
+    border-bottom-width: 2px;
+    border-bottom-color: #d64937;
+    border-bottom-style: solid;
+    background: #e0e0e0;
+}
